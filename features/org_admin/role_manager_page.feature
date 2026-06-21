@@ -1,0 +1,6 @@
+Feature: Role Manager Navigation
+
+  Scenario: Navigate to Role Manager page
+    Given the HPB Admin is logged in
+    When the user navigates to the Role Manager page
+    Then the Role Manager page should be visible

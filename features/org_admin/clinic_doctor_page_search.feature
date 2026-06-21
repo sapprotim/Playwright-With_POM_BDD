@@ -1,0 +1,8 @@
+Feature: search
+
+  Scenario: HPB Admin searches for a user by name in Clinic's Doctor page and views matching results
+    Given the HPB Admin is logged in
+    When the HPB Admin navigates to the clinic page
+    And selects doctor to view its doctors
+   And the doctor searches for a name
+   Then the system should display the matching user
