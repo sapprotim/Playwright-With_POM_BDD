@@ -2,6 +2,9 @@
 .idea/
 .vscode/
 
+# Claude Code internals
+.claude/
+
 # Python
 __pycache__/
 *.pyc
@@ -22,3 +25,7 @@ screenshots/
 
 # Playwright
 .playwright/
+
+# SQL dumps contain real user/patient data - never commit
+features/sqldata.sql
+features/*.sql
